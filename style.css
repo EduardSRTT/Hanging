@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+}
+
+.container {
+    position: absolute;
+    width: 260px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    width: 240px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-header {
+    background-color: grey;
+}
+
+.card-body {
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    margin:auto;
+    padding-top: 5px;
+    letter-spacing: 10px;
+}
+
+.btn-warning {
+    display: flex;
+    font-style: italic;
+    font-size: medium;
+    width: 145px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.btn-light {
+    display: flex;
+    font-style: italic;
+    font-size: medium;
+    margin-top: 5px;
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+
+#info {
+    font-size: small;
+    color:red;
+    margin-left: 22px;
+    text-decoration: underline;
+}
+
+input {
+    width: 30px;
+    margin-top: 5px;
+    float:right;
+    margin-right: 50px;
+    border: 3px solid blue;
+    display:none;
+    text-transform: lowercase;
+}
+
+#loser {
+    display: none;
+    font-size: x-large;
+    color:white;
+    margin-left: 30px;
+}
+
+#winner {
+    display: none;
+    font-size: x-large;
+    color:green;
+    margin-left: 22px;
+}
+
+#finalMessage {
+    display: none;
+    font-size: x-large;
+    color:red;
+    margin-left: 22px;
+}
